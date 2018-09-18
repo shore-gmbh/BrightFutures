@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/Thomvis/BrightFutures'
   s.social_media_url = 'https://twitter.com/thomvis'
   s.authors = { 'Thomas Visser' => 'thomas.visser@gmail.com' }
-  s.source = { :git => 'https://github.com/MihranDovlatyan/BrightFutures.git', :branch => "bug/xcode10-Swift4.2-error" }
+  s.source = { :git => 'https://github.com/MihranDovlatyan/BrightFutures.git', :branch => 'bug/xcode10-Swift4.2-error' }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
