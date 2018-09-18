@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name = 'BrightFutures'
-  s.version = '6.0.2'
+  s.version = '6.0.1'
   s.license = 'MIT'
   s.summary = 'Write great asynchronous code in Swift using futures and promises'
   s.homepage = 'https://github.com/Thomvis/BrightFutures'
   s.social_media_url = 'https://twitter.com/thomvis'
   s.authors = { 'Thomas Visser' => 'thomas.visser@gmail.com' }
-  s.source = { :git => 'https://github.com/MihranDovlatyan/BrightFutures.git', :branch => 'bug/xcode10-Swift4.2-error' }
+  s.source = { :git => 'https://github.com/Thomvis/BrightFutures.git', :tag => "#{s.version}" }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
